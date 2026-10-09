@@ -33,7 +33,10 @@ def grab(u):
 
 def do_shot(s):
     d = os.path.join(OUT, s["id"]); os.makedirs(d, exist_ok=True)
-    seen, saved, log = set(), 0, []
+    src = os.path.join(d, "sources.json")
+    log = [e for e in (json.load(open(src)) if os.path.exists(src) else []) if os.path.exists(os.path.join(d, e["file"]))]
+    seen, saved = set(), 0
+    nxt = max([int(e["file"][-6:-4]) for e in log] + [0])
     for qi, q in enumerate(s["img"]):
         try: res = search(q)
         except Exception as e: res = []
@@ -44,11 +47,11 @@ def do_shot(s):
             if not g or g[1] in seen: continue
             seen.add(g[1]); im = g[0]
             if im.width > 2400: im.thumbnail((2400, 2400))
-            name = f"{s['id']}_{saved+1:02d}.jpg"
+            nxt += 1; name = f"{s['id']}_{nxt:02d}.jpg"
             im.save(os.path.join(d, name), quality=90)
             log.append({"file": name, "query": q, "url": murl, "page": purl, "size": [im.width, im.height]})
             saved += 1; got += 1
-    json.dump(log, open(os.path.join(d, "sources.json"), "w"), ensure_ascii=False, indent=1)
+    json.dump(log, open(src, "w"), ensure_ascii=False, indent=1)
     print(s["id"], saved, flush=True)
 
 shots = json.load(open(sys.argv[1]))

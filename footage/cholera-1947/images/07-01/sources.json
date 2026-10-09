@@ -1,0 +1,32 @@
+[
+ {
+  "file": "07-01_01.jpg",
+  "query": "Egypt 1948 newspaper",
+  "url": "https://www.eastview.com/wp-content/uploads/2019/08/Al-Ahram_cover-712x1024.jpg",
+  "page": "",
+  "size": [
+   712,
+   1024
+  ]
+ },
+ {
+  "file": "07-01_07.jpg",
+  "query": "Al Ahram 1948",
+  "url": "https://english.ahram.org.eg/Media/News/2022/1/4/41_2022-637769227684259628-425.jpg",
+  "page": "",
+  "size": [
+   800,
+   533
+  ]
+ },
+ {
+  "file": "07-01_08.jpg",
+  "query": "Al Ahram 1948",
+  "url": "https://i.pinimg.com/originals/b0/3b/4c/b03b4cd2d79946109c174fcbdbaf6ac3.jpg",
+  "page": "",
+  "size": [
+   1522,
+   2487
+  ]
+ }
+]
