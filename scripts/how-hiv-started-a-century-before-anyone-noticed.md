@@ -704,7 +704,7 @@
 **المدة التقريبية:** حوالي ٢٣ دقيقة ونص (٣٧٦٣ كلمة على ١٦٠ كلمة في الدقيقة). الفيديو الأصلي حوالي ٢٦ دقيقة من غير فقرة الشكر والدعم.
 
 **المصادر وملاحظات التحقق (للإضافات من برّه الفيديو):**
-- [CDC — MMWR, June 5, 1981: Pneumocystis Pneumonia, Los Angeles](https://www.cdc.gov/mmwr/preview/mmwrhtml/june_5.htm) و[إعادة نشر CDC سنة ٢٠٠١](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5021a1.htm) — يدعم: تاريخ ٥ يونيو ١٩٨١، والتقرير كان عن خمس شباب.
+- [CDC — إعادة نشر تقرير ٥ يونيو ١٩٨١ (Pneumocystis Pneumonia, Los Angeles)](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5021a1.htm) و[CDC Stacks](https://stacks.cdc.gov/view/cdc/50022) — يدعم: تاريخ ٥ يونيو ١٩٨١، والتقرير كان عن خمس شباب.
 - [CDC Stacks — MMWR, July 3, 1981](https://stacks.cdc.gov/view/cdc/1265) — يدعم: تقرير ساركوما كابوزي في نيويورك وكاليفورنيا يوم ٣ يوليو ١٩٨١.
 - [Institut Pasteur — Nobel 2008](https://www.pasteur.fr/en/nobel-prize-medicine-2008-awarded-professors-francoise-barre-sinoussi-and-luc-montagnier) — يدعم: اكتشاف الفيروس في باستير سنة ١٩٨٣ ونوبل ٢٠٠٨.
 - [Keele et al., Science 2006 (PubMed)](https://pubmed.ncbi.nlm.nih.gov/16728595) — يدعم: عينات فضلات الشمبانزي البري في جنوب الكاميرون، وإن الفريق كان بقيادة بياتريس هان.
