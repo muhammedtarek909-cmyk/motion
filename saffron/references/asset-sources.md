@@ -19,6 +19,14 @@ appear in the video description (or end card).
 | `assets/saffron_walden_townhall.jpg` | ch4 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Christchurch_Town_Hall_of_the_Performing_Arts,_New_Zealand.jpg) | Michal Klajban | CC BY-SA 4.0 | Saffron Walden Town Hall |
 | `assets/corms_torbat.jpg` | ch3 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Saffron_onions-IMG_7549-2.jpg) | Safa Daneshvar | CC BY-SA 3.0 | saffron corms |
 | `assets/alexander_mosaic.jpg` | ch4 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Alexander_the_Great_mosaic.jpg) | Unknown authorUnknown author | Public domain | Alexander the Great mosaic |
+| `assets/nuremberg_chronicle_view.png` | ch5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Nuremberg_chronicles_f_097v98r_1.png) | Hartmann Schedel | Public domain | Nuremberg chronicles f 097v98r |
+| `assets/basel_oldest_view.jpg` | ch5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Basel_2012-10-06_Batch_Part_5_(35).JPG) | Johann Rudolf Huber | Public domain | Basel 2012-10-06 Batch Part 5 (35) |
+| `assets/adam_smith.jpg` | ch6 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Adam_Smith_The_Muir_portrait.jpg) | Unknown authorUnknown author | Public domain | Adam Smith The Muir portrait |
+| `assets/tibetan_thangka.jpg` | ch4 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Medical_Thangka-root_of_treatment-2.jpg) | JanManu | CC BY-SA 4.0 | Medical Thangka root of treatment |
+| `assets/kashmir_pampore.jpg` | ch3 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Saffron_From_Pampore.jpg) | Umarsami | CC BY-SA 4.0 | Saffron From Pampore |
+| `assets/crocus_flavus.jpg` | ch2 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20220401_110836_Crocus_flavus_Weston.jpg) | Sdjurovic | CC0 | Crocus flavus Weston |
+| `assets/map_attica.jpg` | ch2 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Map_of_Attica_and_Megaris.jpg) | J. J. Barthélemy | Public domain | Map of Attica and Megaris |
+| `assets/akrotiri_extra.jpg` | ch3 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Saffron_gatherers,_fresco_from_Akrotiri,_17th_c_BC,_MPTh,_226310.jpg) | Zde | CC BY-SA 4.0 | Akrotiri Xeste 3 saffron |
 
 ## Attribution text (paste into the description)
 
@@ -31,3 +39,6 @@ appear in the video description (or end card).
 - File:Harvesting saffron - Iran (12).jpg — Hossein Tohidi Fard — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:Harvesting_saffron_-_Iran_(12).jpg
 - File:Christchurch Town Hall of the Performing Arts, New Zealand.jpg — Michal Klajban — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Christchurch_Town_Hall_of_the_Performing_Arts,_New_Zealand.jpg
 - File:Saffron onions-IMG 7549-2.jpg — Safa Daneshvar — CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Saffron_onions-IMG_7549-2.jpg
+- File:Medical Thangka-root of treatment-2.jpg — JanManu — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Medical_Thangka-root_of_treatment-2.jpg
+- File:Saffron From Pampore.jpg — Umarsami — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Saffron_From_Pampore.jpg
+- File:Saffron gatherers, fresco from Akrotiri, 17th c BC, MPTh, 226310.jpg — Zde — CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Saffron_gatherers,_fresco_from_Akrotiri,_17th_c_BC,_MPTh,_226310.jpg

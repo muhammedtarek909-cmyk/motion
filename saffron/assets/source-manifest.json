@@ -1,282 +1,402 @@
 [
- {
-  "local_file": "assets/corms_stigmas_flower.jpg",
-  "title": "File:Crocus sativus, saffron (4).jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:Crocus_sativus,_saffron_(4).jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Crocus_sativus%2C_saffron_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "Emilie40",
-  "license": "CC0",
-  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "credit": "",
-  "use_note": "no attribution required",
-  "scene": "ch3",
-  "query": "Crocus sativus flower",
-  "description": "saffron (crocus sativus)- in france - bulbs/red stigmas/flower",
-  "size": [
-   2160,
-   1440
-  ],
-  "downloaded": "2026-10-12"
- },
- {
-  "local_file": "assets/dried_stigmas_a.jpg",
-  "title": "File:Saffron-IMG 6681-2.jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:Saffron-IMG_6681-2.jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Saffron-IMG_6681-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "Safa Daneshvar",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "credit": "Safa Daneshvar / Wikimedia Commons",
-  "use_note": "attribution required",
-  "scene": "ch1",
-  "query": "saffron stigmas dried",
-  "description": "Dried Saffron flower stigmas (Red Gold), from saffron farms, Torbat-e-Heidariyeh, Razavi Khorasan province, Iran, nearby Pyrite mineral (from Muteh gold mine, Iran) - Photo by: Safa Daneshvar",
-  "size": [
-   2400,
-   1600
-  ],
-  "downloaded": "2026-10-12"
- },
- {
-  "local_file": "assets/dried_stigmas_bunch.jpg",
-  "title": "File:Saffron-IMG 6640-2.jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:Saffron-IMG_6640-2.jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Saffron-IMG_6640-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "Safa Daneshvar",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "credit": "Safa Daneshvar / Wikimedia Commons",
-  "use_note": "attribution required",
-  "scene": "ch6",
-  "query": "saffron stigmas dried",
-  "description": "Dried Saffron flower stigmas, from saffron farms, Torbat-e-Heidariyeh, Razavi Khorasan province, Iran - Photo by: Safa Daneshvar",
-  "size": [
-   2400,
-   1600
-  ],
-  "downloaded": "2026-10-12"
- },
- {
-  "local_file": "assets/akrotiri_gatherers.jpg",
-  "title": "File:Saffron gatherers, fresco from Akrotiri, 17th c BC, MPTh, 226310.jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:Saffron_gatherers,_fresco_from_Akrotiri,_17th_c_BC,_MPTh,_226310.jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Saffron_gatherers%2C_fresco_from_Akrotiri%2C_17th_c_BC%2C_MPTh%2C_226310.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "Zde",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "credit": "Zde / Wikimedia Commons",
-  "use_note": "attribution required",
-  "scene": "ch3",
-  "query": "Akrotiri saffron gatherers fresco",
-  "description": "The Saffron gatherers. Fresco from Akrotiri (Xeste 3, Room 3, 1st floor), 17th century BC. Prehistoric Museum of Thira, Fira, Santorini.",
-  "size": [
-   5028,
-   3770
-  ],
-  "downloaded": "2026-10-12"
- },
- {
-  "local_file": "assets/akrotiri_gatherer_girl.jpg",
-  "title": "File:Saffron gatherer, Akrotiri.jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:Saffron_gatherer,_Akrotiri.jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Saffron_gatherer%2C_Akrotiri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "anonymous",
-  "license": "Public domain",
-  "license_url": "",
-  "credit": "",
-  "use_note": "no attribution required",
-  "scene": "ch3",
-  "query": "Akrotiri saffron gatherers fresco",
-  "description": "Saffron gatherer, Akrotiri, Greece.",
-  "size": [
-   2421,
-   3192
-  ],
-  "downloaded": "2026-10-12"
- },
- {
-  "local_file": "assets/cartwrightianus_sounion.jpg",
-  "title": "File:Crocus cartwrightianus Sounion 1.jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:Crocus_cartwrightianus_Sounion_1.jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Crocus_cartwrightianus_Sounion_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "Peter coxhead",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "credit": "Peter coxhead / Wikimedia Commons",
-  "use_note": "attribution required",
-  "scene": "ch2",
-  "query": "Crocus cartwrightianus",
-  "description": "Crocus cartwrightianus growing near the temple at Sounion, Greece, 15 November 1991",
-  "size": [
-   2400,
-   1600
-  ],
-  "downloaded": "2026-10-12"
- },
- {
-  "local_file": "assets/canon_1052_akm.jpg",
-  "title": "File:Qanun (Fil-Tibb), Canon (of Medicine), vol. 5, by Ibn Sina (Avicenna), Iran or Iraq, dated 444 AH, 1052 AD, watercolor and ink on paper - Aga Khan Museum - Toronto, Canada - DSC06338.jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:Qanun_(Fil-Tibb),_Canon_(of_Medicine),_vol._5,_by_Ibn_Sina_(Avicenna),_Iran_or_Iraq,_dated_444_AH,_1052_AD,_watercolor_and_ink_on_paper_-_Aga_Khan_Museum_-_Toronto,_Canada_-_DSC06338.jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Qanun_%28Fil-Tibb%29%2C_Canon_%28of_Medicine%29%2C_vol._5%2C_by_Ibn_Sina_%28Avicenna%29%2C_Iran_or_Iraq%2C_dated_444_AH%2C_1052_AD%2C_watercolor_and_ink_on_paper_-_Aga_Khan_Museum_-_Toronto%2C_Canada_-_DSC06338.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "Daderot",
-  "license": "Public domain",
-  "license_url": "",
-  "credit": "",
-  "use_note": "no attribution required",
-  "scene": "ch4",
-  "query": "Avicenna Canon of Medicine manuscript",
-  "description": "Exhibit in the Aga Khan Museum - Toronto, Canada. This work is old enough so that it is in the public domain. Photography was permitted in the museum without restriction.",
-  "size": [
-   4246,
-   3177
-  ],
-  "downloaded": "2026-10-12"
- },
- {
-  "local_file": "assets/canon_hamedan.jpg",
-  "title": "File:The Canon of Medicine.jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:The_Canon_of_Medicine.jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/The_Canon_of_Medicine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "Coffeetalkh",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "credit": "Coffeetalkh / Wikimedia Commons",
-  "use_note": "attribution required",
-  "scene": "ch4",
-  "query": "Avicenna Canon of Medicine manuscript",
-  "description": "The Persian manuscript copy of The Canon of Medicine in Museum and Mausoleum of Avicenna, Hamedan, Iran.",
-  "size": [
-   3619,
-   2302
-  ],
-  "downloaded": "2026-10-12"
- },
- {
-  "local_file": "assets/philadelphia_1750.jpg",
-  "title": "File:Philadelphia in 1750 - DPLA - 3dd9442f5622f5dc76b19e5f2eca0558.jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:Philadelphia_in_1750_-_DPLA_-_3dd9442f5622f5dc76b19e5f2eca0558.jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Philadelphia_in_1750_-_DPLA_-_3dd9442f5622f5dc76b19e5f2eca0558.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "This file was contributed to Wikimedia Commons by Boston Public Library as part of a cooperation project. The donation was facilitated by the Digital Public Library of America. Record in source catalog DPLA identifier: 3dd9442f5622f5dc76b19e5f2eca0558 Boston Public Library identifier: Local other: 07_04_000111A; Local call: LF109 .D9 1814x; Local barcode: 39999063111783",
-  "license": "Public domain",
-  "license_url": "",
-  "credit": "",
-  "use_note": "no attribution required",
-  "scene": "ch1",
-  "query": "Philadelphia in 1750",
-  "description": "Title from accompanying cards.; Found on: History of the University and colleges of Cambridge : including notices relating to the founders and eminent men / by G. Dyer ... Illustrated by a series of engravings ... [by John Greig], vol. 2; D",
-  "size": [
-   3416,
-   940
-  ],
-  "downloaded": "2026-10-12"
- },
- {
-  "local_file": "assets/torbat_saffron_farm.jpg",
-  "title": "File:Saffronfarm-860808.jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:Saffronfarm-860808.jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Saffronfarm-860808.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "Safa.daneshvar",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "credit": "Safa.daneshvar / Wikimedia Commons",
-  "use_note": "attribution required",
-  "scene": "ch1",
-  "query": "Crocus sativus flower",
-  "description": "A saffron farm, Torbat heydariyeh, Razavi Khorasan province, Iran. Photo taken during a trip with Faraz Saffron Co. Ltd. Google map link: https://goo.gl/maps/VE9gzFTDQSF8oZWCA",
-  "size": [
-   2100,
-   1400
-  ],
-  "downloaded": "2026-10-12"
- },
- {
-  "local_file": "assets/harvest_iran_a.jpg",
-  "title": "File:Harvesting saffron - Iran (12).jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:Harvesting_saffron_-_Iran_(12).jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Harvesting_saffron_-_Iran_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "Hossein Tohidi Fard",
-  "license": "CC BY 4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0",
-  "credit": "Hossein Tohidi Fard / Wikimedia Commons",
-  "use_note": "attribution required",
-  "scene": "ch1",
-  "query": "saffron harvest Iran",
-  "description": "Harvesting saffron - Iran",
-  "size": [
-   1050,
-   461
-  ],
-  "downloaded": "2026-10-12"
- },
- {
-  "local_file": "assets/saffron_walden_townhall.jpg",
-  "title": "File:Christchurch Town Hall of the Performing Arts, New Zealand.jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:Christchurch_Town_Hall_of_the_Performing_Arts,_New_Zealand.jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Christchurch_Town_Hall_of_the_Performing_Arts%2C_New_Zealand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "Michal Klajban",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "credit": "Michal Klajban / Wikimedia Commons",
-  "use_note": "attribution required",
-  "scene": "ch4",
-  "query": "Saffron Walden Town Hall",
-  "description": "Christchurch Town Hall of the Performing Arts during the blue hour, Christchurch, New Zealand",
-  "size": [
-   5421,
-   3535
-  ],
-  "downloaded": "2026-10-12"
- },
- {
-  "local_file": "assets/corms_torbat.jpg",
-  "title": "File:Saffron onions-IMG 7549-2.jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:Saffron_onions-IMG_7549-2.jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Saffron_onions-IMG_7549-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "Safa Daneshvar",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "credit": "Safa Daneshvar / Wikimedia Commons",
-  "use_note": "attribution required",
-  "scene": "ch3",
-  "query": "saffron corms",
-  "description": "Saffron onions, from saffron farms, Torbat-e-Heidariyeh, Razavi Khorasan province, Iran - Photo by: Safa Daneshvar Saffron onions need a cold and wet ambience to produce the beautiful saffron flowers.",
-  "size": [
-   2400,
-   1600
-  ],
-  "downloaded": "2026-10-12"
- },
- {
-  "local_file": "assets/alexander_mosaic.jpg",
-  "title": "File:Alexander the Great mosaic.jpg",
-  "original_url": "https://commons.wikimedia.org/wiki/File:Alexander_the_Great_mosaic.jpg",
-  "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Alexander_the_Great_mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-  "source": "Wikimedia Commons",
-  "creator": "Unknown authorUnknown author",
-  "license": "Public domain",
-  "license_url": "",
-  "credit": "",
-  "use_note": "no attribution required",
-  "scene": "ch4",
-  "query": "Alexander the Great mosaic",
-  "description": "Alexander Mosaic (detail), House of the Faun, Pompeii",
-  "size": [
-   2560,
-   1536
-  ],
-  "downloaded": "2026-10-12"
- }
+  {
+    "local_file": "assets/corms_stigmas_flower.jpg",
+    "title": "File:Crocus sativus, saffron (4).jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Crocus_sativus,_saffron_(4).jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Crocus_sativus%2C_saffron_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Emilie40",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "",
+    "use_note": "no attribution required",
+    "scene": "ch3",
+    "query": "Crocus sativus flower",
+    "description": "saffron (crocus sativus)- in france - bulbs/red stigmas/flower",
+    "size": [
+      2160,
+      1440
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/dried_stigmas_a.jpg",
+    "title": "File:Saffron-IMG 6681-2.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Saffron-IMG_6681-2.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Saffron-IMG_6681-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Safa Daneshvar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Safa Daneshvar / Wikimedia Commons",
+    "use_note": "attribution required",
+    "scene": "ch1",
+    "query": "saffron stigmas dried",
+    "description": "Dried Saffron flower stigmas (Red Gold), from saffron farms, Torbat-e-Heidariyeh, Razavi Khorasan province, Iran, nearby Pyrite mineral (from Muteh gold mine, Iran) - Photo by: Safa Daneshvar",
+    "size": [
+      2400,
+      1600
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/dried_stigmas_bunch.jpg",
+    "title": "File:Saffron-IMG 6640-2.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Saffron-IMG_6640-2.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Saffron-IMG_6640-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Safa Daneshvar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Safa Daneshvar / Wikimedia Commons",
+    "use_note": "attribution required",
+    "scene": "ch6",
+    "query": "saffron stigmas dried",
+    "description": "Dried Saffron flower stigmas, from saffron farms, Torbat-e-Heidariyeh, Razavi Khorasan province, Iran - Photo by: Safa Daneshvar",
+    "size": [
+      2400,
+      1600
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/akrotiri_gatherers.jpg",
+    "title": "File:Saffron gatherers, fresco from Akrotiri, 17th c BC, MPTh, 226310.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Saffron_gatherers,_fresco_from_Akrotiri,_17th_c_BC,_MPTh,_226310.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Saffron_gatherers%2C_fresco_from_Akrotiri%2C_17th_c_BC%2C_MPTh%2C_226310.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Zde",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Zde / Wikimedia Commons",
+    "use_note": "attribution required",
+    "scene": "ch3",
+    "query": "Akrotiri saffron gatherers fresco",
+    "description": "The Saffron gatherers. Fresco from Akrotiri (Xeste 3, Room 3, 1st floor), 17th century BC. Prehistoric Museum of Thira, Fira, Santorini.",
+    "size": [
+      5028,
+      3770
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/akrotiri_gatherer_girl.jpg",
+    "title": "File:Saffron gatherer, Akrotiri.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Saffron_gatherer,_Akrotiri.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Saffron_gatherer%2C_Akrotiri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "anonymous",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "",
+    "use_note": "no attribution required",
+    "scene": "ch3",
+    "query": "Akrotiri saffron gatherers fresco",
+    "description": "Saffron gatherer, Akrotiri, Greece.",
+    "size": [
+      2421,
+      3192
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/cartwrightianus_sounion.jpg",
+    "title": "File:Crocus cartwrightianus Sounion 1.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Crocus_cartwrightianus_Sounion_1.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Crocus_cartwrightianus_Sounion_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Peter coxhead",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Peter coxhead / Wikimedia Commons",
+    "use_note": "attribution required",
+    "scene": "ch2",
+    "query": "Crocus cartwrightianus",
+    "description": "Crocus cartwrightianus growing near the temple at Sounion, Greece, 15 November 1991",
+    "size": [
+      2400,
+      1600
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/canon_1052_akm.jpg",
+    "title": "File:Qanun (Fil-Tibb), Canon (of Medicine), vol. 5, by Ibn Sina (Avicenna), Iran or Iraq, dated 444 AH, 1052 AD, watercolor and ink on paper - Aga Khan Museum - Toronto, Canada - DSC06338.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Qanun_(Fil-Tibb),_Canon_(of_Medicine),_vol._5,_by_Ibn_Sina_(Avicenna),_Iran_or_Iraq,_dated_444_AH,_1052_AD,_watercolor_and_ink_on_paper_-_Aga_Khan_Museum_-_Toronto,_Canada_-_DSC06338.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Qanun_%28Fil-Tibb%29%2C_Canon_%28of_Medicine%29%2C_vol._5%2C_by_Ibn_Sina_%28Avicenna%29%2C_Iran_or_Iraq%2C_dated_444_AH%2C_1052_AD%2C_watercolor_and_ink_on_paper_-_Aga_Khan_Museum_-_Toronto%2C_Canada_-_DSC06338.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Daderot",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "",
+    "use_note": "no attribution required",
+    "scene": "ch4",
+    "query": "Avicenna Canon of Medicine manuscript",
+    "description": "Exhibit in the Aga Khan Museum - Toronto, Canada. This work is old enough so that it is in the public domain. Photography was permitted in the museum without restriction.",
+    "size": [
+      4246,
+      3177
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/canon_hamedan.jpg",
+    "title": "File:The Canon of Medicine.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:The_Canon_of_Medicine.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/The_Canon_of_Medicine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Coffeetalkh",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Coffeetalkh / Wikimedia Commons",
+    "use_note": "attribution required",
+    "scene": "ch4",
+    "query": "Avicenna Canon of Medicine manuscript",
+    "description": "The Persian manuscript copy of The Canon of Medicine in Museum and Mausoleum of Avicenna, Hamedan, Iran.",
+    "size": [
+      3619,
+      2302
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/philadelphia_1750.jpg",
+    "title": "File:Philadelphia in 1750 - DPLA - 3dd9442f5622f5dc76b19e5f2eca0558.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Philadelphia_in_1750_-_DPLA_-_3dd9442f5622f5dc76b19e5f2eca0558.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Philadelphia_in_1750_-_DPLA_-_3dd9442f5622f5dc76b19e5f2eca0558.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "This file was contributed to Wikimedia Commons by Boston Public Library as part of a cooperation project. The donation was facilitated by the Digital Public Library of America. Record in source catalog DPLA identifier: 3dd9442f5622f5dc76b19e5f2eca0558 Boston Public Library identifier: Local other: 07_04_000111A; Local call: LF109 .D9 1814x; Local barcode: 39999063111783",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "",
+    "use_note": "no attribution required",
+    "scene": "ch1",
+    "query": "Philadelphia in 1750",
+    "description": "Title from accompanying cards.; Found on: History of the University and colleges of Cambridge : including notices relating to the founders and eminent men / by G. Dyer ... Illustrated by a series of engravings ... [by John Greig], vol. 2; D",
+    "size": [
+      3416,
+      940
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/torbat_saffron_farm.jpg",
+    "title": "File:Saffronfarm-860808.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Saffronfarm-860808.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Saffronfarm-860808.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Safa.daneshvar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Safa.daneshvar / Wikimedia Commons",
+    "use_note": "attribution required",
+    "scene": "ch1",
+    "query": "Crocus sativus flower",
+    "description": "A saffron farm, Torbat heydariyeh, Razavi Khorasan province, Iran. Photo taken during a trip with Faraz Saffron Co. Ltd. Google map link: https://goo.gl/maps/VE9gzFTDQSF8oZWCA",
+    "size": [
+      2100,
+      1400
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/harvest_iran_a.jpg",
+    "title": "File:Harvesting saffron - Iran (12).jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Harvesting_saffron_-_Iran_(12).jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Harvesting_saffron_-_Iran_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Hossein Tohidi Fard",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "credit": "Hossein Tohidi Fard / Wikimedia Commons",
+    "use_note": "attribution required",
+    "scene": "ch1",
+    "query": "saffron harvest Iran",
+    "description": "Harvesting saffron - Iran",
+    "size": [
+      1050,
+      461
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/corms_torbat.jpg",
+    "title": "File:Saffron onions-IMG 7549-2.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Saffron_onions-IMG_7549-2.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Saffron_onions-IMG_7549-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Safa Daneshvar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Safa Daneshvar / Wikimedia Commons",
+    "use_note": "attribution required",
+    "scene": "ch3",
+    "query": "saffron corms",
+    "description": "Saffron onions, from saffron farms, Torbat-e-Heidariyeh, Razavi Khorasan province, Iran - Photo by: Safa Daneshvar Saffron onions need a cold and wet ambience to produce the beautiful saffron flowers.",
+    "size": [
+      2400,
+      1600
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/alexander_mosaic.jpg",
+    "title": "File:Alexander the Great mosaic.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Alexander_the_Great_mosaic.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Alexander_the_Great_mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "",
+    "use_note": "no attribution required",
+    "scene": "ch4",
+    "query": "Alexander the Great mosaic",
+    "description": "Alexander Mosaic (detail), House of the Faun, Pompeii",
+    "size": [
+      2560,
+      1536
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/nuremberg_chronicle_view.png",
+    "title": "File:Nuremberg chronicles f 097v98r 1.png",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Nuremberg_chronicles_f_097v98r_1.png",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Nuremberg_chronicles_f_097v98r_1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Hartmann Schedel",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "",
+    "use_note": "no attribution required",
+    "scene": "ch5",
+    "query": "Nuremberg chronicles f 097v98r",
+    "description": "This is a part of a scan of an historical document: Title: Schedelsche Weltchronik or Nuremberg Chronicle",
+    "size": [
+      2079,
+      808
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/basel_oldest_view.jpg",
+    "title": "File:Basel 2012-10-06 Batch Part 5 (35).JPG",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Basel_2012-10-06_Batch_Part_5_(35).JPG",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Basel_2012-10-06_Batch_Part_5_%2835%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Johann Rudolf Huber",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "",
+    "use_note": "no attribution required",
+    "scene": "ch5",
+    "query": "Basel 2012-10-06 Batch Part 5 (35)",
+    "description": "Älteste Stadtansicht aus dem 15. Jahrhundert)",
+    "size": [
+      3648,
+      2736
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/adam_smith.jpg",
+    "title": "File:Adam Smith The Muir portrait.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Adam_Smith_The_Muir_portrait.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Adam_Smith_The_Muir_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "",
+    "use_note": "no attribution required",
+    "scene": "ch6",
+    "query": "Adam Smith The Muir portrait",
+    "description": "Portrait of the political economist and philosopher Adam Smith (1723-1790) by an unknown artist, which is known as the ‘Muir portrait’ after the family who once owned it. The portrait was probably painted posthumously, based on a medallion ",
+    "size": [
+      1893,
+      2307
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/tibetan_thangka.jpg",
+    "title": "File:Medical Thangka-root of treatment-2.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Medical_Thangka-root_of_treatment-2.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Medical_Thangka-root_of_treatment-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "JanManu",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "JanManu / Wikimedia Commons",
+    "use_note": "attribution required",
+    "scene": "ch4",
+    "query": "Medical Thangka root of treatment",
+    "description": "Tibetan Thangka root of treatment",
+    "size": [
+      2126,
+      1594
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/kashmir_pampore.jpg",
+    "title": "File:Saffron From Pampore.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Saffron_From_Pampore.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Saffron_From_Pampore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Umarsami",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Umarsami / Wikimedia Commons",
+    "use_note": "attribution required",
+    "scene": "ch3",
+    "query": "Saffron From Pampore",
+    "description": "Photo Taken From Saffron Fields From Kashmir.Kashmir is Known For Its Saffron Fields.",
+    "size": [
+      6016,
+      4000
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/crocus_flavus.jpg",
+    "title": "File:20220401 110836 Crocus flavus Weston.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:20220401_110836_Crocus_flavus_Weston.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/20220401_110836_Crocus_flavus_Weston.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "Sdjurovic",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "",
+    "use_note": "no attribution required",
+    "scene": "ch2",
+    "query": "Crocus flavus Weston",
+    "description": "Crocus flavus, known as yellow crocus, Dutch yellow crocus or snow crocus, is a species of flowering plant in the genus Crocus of the family Iridaceae. It grows wild on the slopes of Greece, former Yugoslavia, Bulgaria, Romania and northwes",
+    "size": [
+      3456,
+      4608
+    ],
+    "downloaded": "2026-10-12"
+  },
+  {
+    "local_file": "assets/map_attica.jpg",
+    "title": "File:Map of Attica and Megaris.jpg",
+    "original_url": "https://commons.wikimedia.org/wiki/File:Map_of_Attica_and_Megaris.jpg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Map_of_Attica_and_Megaris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "source": "Wikimedia Commons",
+    "creator": "J. J. Barthélemy",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "",
+    "use_note": "no attribution required",
+    "scene": "ch2",
+    "query": "Map of Attica and Megaris",
+    "description": "This file is in the public domain because it is a mere mechanical scan or photocopy of a public domain original, or – from the available evidence – is so similar to such a scan or photocopy that no copyright protection can be expected to ar",
+    "size": [
+      3895,
+      2769
+    ],
+    "downloaded": "2026-10-12"
+  }
 ]
