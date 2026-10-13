@@ -3,3 +3,6 @@ renders/
 *.mp4
 *.webm
 .DS_Store
+refs/
+*.mp4
+*.mov
