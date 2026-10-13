@@ -1,0 +1,24 @@
+{
+ "source": "refs/magnets.mp4 (1920x1080, 23.976 fps, 346.8 s; content 7-334 s). Measured with tools/measure_growth.py (ink curve of a region, fitted with the skill's measure_motion.py ease library). Frames are source frames; f@30 = seconds x 30.",
+ "births": [
+  {"what": "title typed (letter-spaced caps, 21 letters)", "frames": "f1462-1486", "seconds": 1.001, "f30": 30.0, "fit": "none (linear), rmse 0.04", "note": "area steps every 2 frames = animated on twos; 21 letters / s"},
+  {"what": "property list row", "frames": "f1559, f1593", "seconds": 0.33, "f30": 10.0, "fit": "1-frame jump then 7-frame settle", "note": "rows 34 frames apart = on the narrator's words, not a fixed stagger"},
+  {"what": "big dark disc grows from the centre", "frames": "f1657-1683", "seconds": 1.084, "f30": 32.5, "fit": "sine.out rmse 0.053 (power1.out 0.066)", "overshoot_pct": 0},
+  {"what": "spin / force arrow born from a particle", "frames": "f3981-3988", "seconds": 0.292, "f30": 8.8, "fit": "back.out(3.0) rmse 0.06 (back.out(2.2) 0.13)", "overshoot_pct": "26 (area) - 36 (height)"},
+  {"what": "halftone cloud closes into nucleus + shells", "frames": "f1190-1264", "seconds": 3.086, "f30": 92.6, "fit": "power3.in 0.17 / power2.in 0.22"},
+  {"what": "field lines of two particles (bbox growth)", "frames": "f2048-2160", "seconds": 4.67, "f30": 140.1, "fit": "circ.out / power1.out (loose, rmse 0.3-0.4)", "note": "ink keeps growing roughly linearly for 8.8 s (f2020-2230)"},
+  {"what": "field lines of the bar magnet", "frames": "f4540-4638", "seconds": 4.087, "f30": 122.6, "fit": "power1.out rmse 0.11 (height)"},
+  {"what": "label letter-spacing breathes", "frames": "f1843-1994", "seconds": 6.0, "f30": 180, "fit": "slow, loose", "note": "NOT reproduced: Arabic is never tracked"},
+  {"what": "grid of spins turns into alignment", "frames": "f4300-4420", "seconds": "3.9-5.0", "f30": "116-149", "fit": "not fittable (rotation); observed smooth, staggered by column"},
+  {"what": "ground change navy -> cream", "frames": "f4450-4451", "seconds": 0.042, "f30": 1, "fit": "hard cut"}
+ ],
+ "colours_note": "The reference's own palette, recorded for the record only. NOT used by the edu mode: the owner wants one colour template for the whole video, so grounds, type and lines use the archival tokens (edu-style.md §2).",
+ "colours": {
+  "cream ground": "#fbe9de", "navy ground": "#030535", "glow violet ground": "#735bfe", "ink": "#291f1a",
+  "title red on cream": "#ce4f58", "title red on navy": "#ef4757", "label orange": "#f6952f", "label purple on cream": "#8657a6",
+  "label purple on navy": "#9350c4", "gold (years, idea name)": "#feaf1c", "name pill red": "#f41151", "name pill purple": "#591f97",
+  "magnet north": "#e82f4a", "magnet middle": "#8e227a", "magnet south": "#0d13bb", "icon blue": "#2729fd", "icon green": "#233f17",
+  "icon purple": "#50326e", "spin ring": "#e595e2", "arrow on navy": "#ffffff",
+  "field line on cream (anti-aliased sample)": "#7c659e", "field line on navy (anti-aliased sample)": "#3f3678"
+ }
+}

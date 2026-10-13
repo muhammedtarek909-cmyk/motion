@@ -20,3 +20,13 @@ atom is built in this look. Every other scene stays in the archival style.
      (sentence role → edu scene), `motion-primitives.md/js`, `transitions.md` (archival ↔ edu handoff).
      Write it to work even if the skill changed since.
 3. Merge into a copy of the skill and zip it for upload at claude.ai → Settings → Skills (replacing the old one).
+
+## Status — done on 13 Oct 2026
+- Step 1: the three references were analysed with the skill's scripts; `data/edu_refs_measured.json`,
+  `data/edu_element_births.json`. Shapes and timings come from the magnetism film only.
+- Step 2: `edu-style.md`, `edu.css`, `edu-primitives.js` (P35–P46 — the skill's list ends at P34, not P30),
+  `edu-scene-template.html` → `preview.mp4`; `preview-mixed.mp4` = archival → edu → archival through the merged builder.
+- Owner decision: **one colour template** — edu scenes use the archival paper, ink, red, yellow and teal; the
+  reference's cream / navy / violet palette is not used.
+- Step 3: `MERGE.md` + `tools/merge_into_skill.py` (15 steps, 0 manual on the skill as installed that day). The
+  merged zip was handed to the owner together with a backup zip of the skill as it was before.

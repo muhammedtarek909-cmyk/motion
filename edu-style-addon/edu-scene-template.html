@@ -1,0 +1,152 @@
+<!doctype html>
+<!--
+  reference-motion-style — EDU SCENE TEMPLATE (hand-authoring contract + the sample that renders to preview.mp4)
+
+  An edu scene is an ordinary scene of the skill (section.clip.scene > .mask > .tilt > .cam + .hud) whose .cam
+  holds ONE empty element  <div id="ID-edu">  and whose .hud holds  <div id="ID-eduhud">  (titles stay steady).
+  RMS.edu builds the diagram into them at load time and adds its tweens to the one master timeline:
+
+      const ctx = E.stage("#ID-edu", {ground: "paper" | "dark" | "bloom", id: "ID", hud: "#ID-eduhud"});
+      const a = E.particle(ctx, {...});  E.pop(tl, a, T);          // T = absolute VO seconds (word onsets)
+
+  or, declaratively (what the builder's `edu` scene type emits):   E.scene(tl, "ID", {ground, start, end, items: [...]});
+
+  Rules that this file obeys (edu-style.md): the ARCHIVAL colour template (paper, ink, red, yellow, teal) — only
+  drawn objects may take their own colour; one ground per scene, grounds change by a HARD CUT on a word onset;
+  every element is born on the word that names it; positions are % of the frame; text is the user's Arabic font
+  with RTL on the text elements only; equations are always LTR; the camera never stops (0.83 %/s linear).
+  To use as a project: tools/make_demo.py copies this file to demo/index.html next to rtl.css,
+  motion-primitives.js, fonts/ and assets/ from the skill, then `npx hyperframes check demo`.
+-->
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <title>EDU scene template — قانون كولوم</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <link rel="stylesheet" href="rtl.css" />
+    <link rel="stylesheet" href="edu.css" />
+    <style>
+      @font-face { font-family: "RMS Display"; src: url("fonts/thmanyahserifdisplay-Bold.otf") format("opentype"); font-weight: 700; font-display: block; }
+      @font-face { font-family: "RMS Display"; src: url("fonts/thmanyahserifdisplay-Medium.otf") format("opentype"); font-weight: 500; font-display: block; }
+      @font-face { font-family: "RMS Display"; src: url("fonts/thmanyahserifdisplay-Regular.otf") format("opentype"); font-weight: 400; font-display: block; }
+      @font-face { font-family: "RMS Text"; src: url("fonts/thmanyahserifdisplay-Regular.otf") format("opentype"); font-weight: 400; font-display: block; }
+      @font-face { font-family: "RMS Text"; src: url("fonts/thmanyahserifdisplay-Medium.otf") format("opentype"); font-weight: 500; font-display: block; }
+      @font-face { font-family: "RMS Text"; src: url("fonts/thmanyahserifdisplay-Bold.otf") format("opentype"); font-weight: 700; font-display: block; }
+      @font-face { font-family: "RMS Latin"; src: url("fonts/thmanyahserifdisplay-Bold.otf"); font-weight: 800; }
+    </style>
+    <script src="motion-primitives.js"></script>
+    <script src="edu-primitives.js"></script>
+  </head>
+  <body>
+    <div id="root" class="fmt-16x9" data-composition-id="main" data-start="0" data-width="1920" data-height="1080" data-duration="23.000">
+      <!-- e1 · paper · "what is inside": blob -> cloud -> atom model (P40 morph, P37 atom, P42 labels, P43 title) -->
+      <section class="clip scene" id="e1" data-start="0.000" data-duration="8.400" data-track-index="1" style="z-index:10">
+        <div class="mask" id="e1-m"><div class="tilt" id="e1-tilt">
+          <div class="cam" id="e1-cam"><div id="e1-edu"></div></div>
+          <div class="hud" id="e1-hud"><div id="e1-eduhud"></div></div>
+        </div></div>
+      </section>
+      <!-- e2 · dark · "the force between two charges": bodies, field lines, force arrows (P36, P38, P39) -->
+      <section class="clip scene" id="e2" data-start="8.400" data-duration="8.000" data-track-index="1" style="z-index:20">
+        <div class="mask" id="e2-m"><div class="tilt" id="e2-tilt">
+          <div class="cam" id="e2-cam"><div id="e2-edu"></div></div>
+          <div class="hud" id="e2-hud"><div id="e2-eduhud"></div></div>
+        </div></div>
+      </section>
+      <!-- e3 · paper · "the law": equation built term by term, the key term underlined, result boxed (P41) -->
+      <section class="clip scene" id="e3" data-start="16.400" data-duration="6.600" data-track-index="1" style="z-index:30">
+        <div class="mask" id="e3-m"><div class="tilt" id="e3-tilt">
+          <div class="cam" id="e3-cam"><div id="e3-edu"></div></div>
+          <div class="hud" id="e3-hud"><div id="e3-eduhud"></div></div>
+        </div></div>
+      </section>
+      <div class="grain" id="grain"></div>
+      <!-- texture SFX only (no music, no VO in the sample). In a real video the builder places and budgets them. -->
+      <audio id="sfx001" src="assets/sfx/pop.wav" data-start="0.400" data-duration="0.090" data-track-index="9" data-volume="0.32"></audio>
+      <audio id="sfx002" src="assets/sfx/shimmer.wav" data-start="2.330" data-duration="0.800" data-track-index="9" data-volume="0.20"></audio>
+      <audio id="sfx003" src="assets/sfx/tick.wav" data-start="5.767" data-duration="0.120" data-track-index="9" data-volume="0.30"></audio>
+      <audio id="sfx004" src="assets/sfx/tick.wav" data-start="6.667" data-duration="0.120" data-track-index="9" data-volume="0.30"></audio>
+      <audio id="sfx005" src="assets/sfx/pop.wav" data-start="8.800" data-duration="0.090" data-track-index="9" data-volume="0.32"></audio>
+      <audio id="sfx006" src="assets/sfx/pop.wav" data-start="9.500" data-duration="0.090" data-track-index="9" data-volume="0.32"></audio>
+      <audio id="sfx007" src="assets/sfx/scribble.wav" data-start="10.400" data-duration="0.600" data-track-index="9" data-volume="0.16"></audio>
+      <audio id="sfx008" src="assets/sfx/swipe.wav" data-start="12.867" data-duration="0.280" data-track-index="9" data-volume="0.24"></audio>
+      <audio id="sfx009" src="assets/sfx/tick.wav" data-start="17.300" data-duration="0.120" data-track-index="9" data-volume="0.30"></audio>
+      <audio id="sfx010" src="assets/sfx/scribble.wav" data-start="20.200" data-duration="0.600" data-track-index="9" data-volume="0.18"></audio>
+      <audio id="sfx011" src="assets/sfx/thud.wav" data-start="21.400" data-duration="0.450" data-track-index="9" data-volume="0.30"></audio>
+    </div>
+    <script>
+      document.fonts.ready.then(() => {
+        const tl = gsap.timeline({ paused: true });
+        const E = RMS.edu, F = RMS.F;
+
+        // ---------------- e1 · 0.0 – 8.4 · paper ----------------
+        {
+          const c = E.stage("#e1-edu", { ground: "paper", id: "e1", hud: "#e1-eduhud" });
+          E.drift(tl, "#e1-cam", 0, 8.4);                                              // P46: 0.83 %/s, linear
+          const ttl = E.title(c, { id: "ttl", text: "داخل الذرّة", sub: "ما الذي يُمسكها؟" });
+          E.titleType(tl, ttl, 0.5, 1.5);                                              // P43 on the title words
+
+          // P40: an unknown lump of matter rounds itself into a sphere before we look inside
+          const cx = c.px(50), cy = c.py(60);
+          const lump = E.sv("path", { id: "e1-lump", d: E.shapePath("blob", { cx, cy, r: 190, seed: "lump", amp: 0.22 }), fill: "#2b4f4b" }, c.svg);
+          tl.fromTo(lump, { opacity: 0 }, { opacity: 1, duration: F(6), ease: "none" }, 0.4);
+          E.morph(tl, lump, E.shapePath("circle", { cx, cy, r: 165 }), 1.2);           // 32 f sine.inOut
+          tl.to(lump, { opacity: 0, duration: F(8), ease: "none" }, 2.3);
+
+          // P37: cloud at 2.3, collapses on "atom" at 2.6 into nucleus + two shells; electrons keep turning
+          const atom = E.atom(c, { id: "atom", x: 50, y: 60, nucleus: { d: 150, balls: ["proton", "neutron", "proton", "neutron", "neutron", "neutron", "proton"] },
+                                   shells: [{ r: 175, electrons: 2, ed: 46 }, { r: 290, electrons: 1, phase: 2.2, ed: 46 }], cloud_r: 320 });
+          E.atomBuild(tl, atom, 2.3, 2.6, 8.4);
+
+          // P42: each label on the word that names the thing (right first: reading start)
+          const l1 = E.label(c, { id: "nuc", text: "نواة موجبة", tone: "warm", x: 82, y: 60 });
+          const l2 = E.label(c, { id: "elec", text: "إلكترون سالب", tone: "cool", x: 17, y: 60 });
+          E.labelIn(tl, l1, 5.7); E.labelIn(tl, l2, 6.6);
+        }
+
+        // ---------------- e2 · 8.4 – 16.4 · dark (hard cut) ----------------
+        {
+          const c = E.stage("#e2-edu", { ground: "dark", id: "e2", hud: "#e2-eduhud" });
+          E.drift(tl, "#e2-cam", 8.4, 8.0);
+          const p = E.particle(c, { id: "plus", x: 33, y: 54, d: 200, tone: "plus", sym: "+" });
+          const m = E.particle(c, { id: "minus", x: 67, y: 54, d: 200, tone: "minus", sym: "-" });
+          E.pop(tl, p, 8.8); E.pop(tl, m, 9.5);                                         // P36 on "positive" / "negative"
+          const lp = E.label(c, { id: "lp", of: "plus", text: "شحنة موجبة", tone: "warm", dy: 172, small: true });
+          const lm = E.label(c, { id: "lm", of: "minus", text: "شحنة سالبة", tone: "cool", dy: 172, small: true });
+          E.labelIn(tl, lp, 9.0); E.labelIn(tl, lm, 9.7);
+
+          const fld = E.field(c, { id: "fld", sources: ["plus", "minus"], n: 18, w: 2.5 });     // P38: real field lines, 4.2 s
+          E.fieldDraw(tl, fld, 10.4);
+
+          const a1 = E.arrow(c, { id: "f1", from: "plus", angle: 0, len: 140, w: 13, color: "#f3e24a" });
+          const a2 = E.arrow(c, { id: "f2", from: "minus", angle: 180, len: 140, w: 13, color: "#f3e24a" });
+          E.arrowGrow(tl, a1, 12.9); E.arrowGrow(tl, a2, 12.9 + F(3));                  // P39: 9 f back.out(3)
+          const pull = E.label(c, { id: "pull", text: "تجاذب", tone: "key", x: 50, y: 27 });
+          E.labelIn(tl, pull, 13.0);
+          E.arrowScale(tl, a1, 14.6, 1.4); E.arrowScale(tl, a2, 14.6, 1.4);             // the force grows: same arrows, longer
+          const note = E.label(c, { id: "note", cls: "edu-note", html: 'كلما <span class="hl">اقتربت</span> الشحنتان زادت القوة', x: 50, y: 86 });
+          E.labelIn(tl, note, 14.5);
+        }
+
+        // ---------------- e3 · 16.4 – 23.0 · paper (hard cut) ----------------
+        {
+          const c = E.stage("#e3-edu", { ground: "paper", id: "e3", hud: "#e3-eduhud" });
+          E.drift(tl, "#e3-cam", 16.4, 6.6);
+          const ttl = E.title(c, { id: "ttl", text: "قانون كولوم" });
+          E.titleType(tl, ttl, 16.6);
+          const eq = E.equation(c, { id: "eq", x: 50, y: 53, size: 150,
+            terms: [{ s: "F", t: 17.3 }, { s: "=", t: 17.6 }, { s: "k", t: 18.0 }, { frac: ["q_1 q_2", "r^2"], t: 18.5 }] });
+          E.eqBuild(tl, eq);                                                            // P41: one term per spoken symbol
+          E.eqHighlight(tl, eq.terms[3].den, 20.2, null, c);                             // the term this sentence is about
+          const note = E.label(c, { id: "note", cls: "edu-note", html: 'نصف المسافة = <span class="hl">أربعة أضعاف</span> القوة', x: 50, y: 84 });
+          E.labelIn(tl, note, 20.3);
+          E.eqBox(tl, eq, 21.4);                                                        // the law closes
+        }
+
+        RMS.grain(tl, "#grain", 23.0);
+        window.__timelines["main"] = tl;
+      });
+    </script>
+  </body>
+</html>

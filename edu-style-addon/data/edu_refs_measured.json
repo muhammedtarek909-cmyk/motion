@@ -1,0 +1,422 @@
+{
+ "fingerprints": {
+  "maglev": {
+   "video": "C:\\Users\\dell\\Downloads\\Ted\\motion\\refs\\maglev.mp4",
+   "range": "6.5:361",
+   "duration_s": 354.52,
+   "fps": 23.976023976023978,
+   "width": 1920,
+   "height": 1080,
+   "shots": 53,
+   "shot_dur_median": 4.796,
+   "shot_dur_mean": 7.079,
+   "shot_dur_p10": 1.059,
+   "shot_dur_p25": 2.336,
+   "shot_dur_p75": 9.165,
+   "shot_dur_p90": 17.125,
+   "cuts_per_min": 8.8,
+   "gradual_ratio": 0.404,
+   "events_per_min": 13.88,
+   "max_static_s_p90": 15.63,
+   "camera_moving_ratio": 0.847,
+   "zoom_rate_pct_s_med": 0.724,
+   "pan_rate_px_s_med": 30.58,
+   "luma_mean": 110.8,
+   "luma_light_share": 0.21,
+   "luma_dark_share": 0.314,
+   "sat_mean": 108.1,
+   "sharp_med": 513.4
+  },
+  "magnets": {
+   "video": "C:\\Users\\dell\\Downloads\\Ted\\motion\\refs\\magnets.mp4",
+   "range": "7:334",
+   "duration_s": 326.99,
+   "fps": 23.976023976023978,
+   "width": 1920,
+   "height": 1080,
+   "shots": 38,
+   "shot_dur_median": 9.885,
+   "shot_dur_mean": 17.948,
+   "shot_dur_p10": 5.326,
+   "shot_dur_p25": 5.766,
+   "shot_dur_p75": 23.555,
+   "shot_dur_p90": 37.546,
+   "cuts_per_min": 6.79,
+   "gradual_ratio": 0.135,
+   "events_per_min": 11.19,
+   "max_static_s_p90": 20.22,
+   "camera_moving_ratio": 0.777,
+   "zoom_rate_pct_s_med": 1.625,
+   "pan_rate_px_s_med": 3.07,
+   "luma_mean": 145.9,
+   "luma_light_share": 0.551,
+   "luma_dark_share": 0.308,
+   "sat_mean": 113.3,
+   "sharp_med": 1570.2
+  },
+  "datacenters": {
+   "video": "C:\\Users\\dell\\Downloads\\Ted\\motion\\refs\\datacenters.mp4",
+   "range": "6.5:374",
+   "duration_s": 367.53,
+   "fps": 23.976023976023978,
+   "width": 1920,
+   "height": 1080,
+   "shots": 28,
+   "shot_dur_median": 9.197,
+   "shot_dur_mean": 13.126,
+   "shot_dur_p10": 1.973,
+   "shot_dur_p25": 4.348,
+   "shot_dur_p75": 16.058,
+   "shot_dur_p90": 29.905,
+   "cuts_per_min": 4.41,
+   "gradual_ratio": 0.667,
+   "events_per_min": 11.43,
+   "max_static_s_p90": 13.12,
+   "camera_moving_ratio": 0.956,
+   "zoom_rate_pct_s_med": 1.797,
+   "pan_rate_px_s_med": 7.04,
+   "luma_mean": 93.0,
+   "luma_light_share": 0.027,
+   "luma_dark_share": 0.258,
+   "sat_mean": 137.3,
+   "sharp_med": 1491.7
+  }
+ },
+ "palettes": {
+  "maglev": {
+   "range": "6.5:361",
+   "frames_sampled": 1417,
+   "grounds": [
+    {
+     "hex": "#1e203b",
+     "share": 0.373,
+     "luma": 34,
+     "sat": 125
+    },
+    {
+     "hex": "#bfc8ec",
+     "share": 0.217,
+     "luma": 201,
+     "sat": 49
+    },
+    {
+     "hex": "#354b6f",
+     "share": 0.179,
+     "luma": 72,
+     "sat": 133
+    },
+    {
+     "hex": "#347e78",
+     "share": 0.104,
+     "luma": 103,
+     "sat": 150
+    },
+    {
+     "hex": "#6fae70",
+     "share": 0.085,
+     "luma": 148,
+     "sat": 92
+    },
+    {
+     "hex": "#76340f",
+     "share": 0.042,
+     "luma": 67,
+     "sat": 223
+    }
+   ],
+   "light_ground_share": 0.312,
+   "ground_run_light_s": {
+    "n": 11,
+    "median": 3.3,
+    "max": 40.5
+   },
+   "ground_run_dark_s": {
+    "n": 12,
+    "median": 11.0,
+    "max": 110.4
+   },
+   "accents": [
+    {
+     "hex": "#2f396d",
+     "share": 0.165
+    },
+    {
+     "hex": "#45669b",
+     "share": 0.156
+    },
+    {
+     "hex": "#4fa8a4",
+     "share": 0.134
+    },
+    {
+     "hex": "#dc7c69",
+     "share": 0.128
+    },
+    {
+     "hex": "#2a686a",
+     "share": 0.099
+    },
+    {
+     "hex": "#47d2cb",
+     "share": 0.086
+    },
+    {
+     "hex": "#8e4548",
+     "share": 0.061
+    },
+    {
+     "hex": "#648bdd",
+     "share": 0.059
+    },
+    {
+     "hex": "#3c49a6",
+     "share": 0.057
+    },
+    {
+     "hex": "#8edc6f",
+     "share": 0.056
+    }
+   ]
+  },
+  "magnets": {
+   "range": "7:334",
+   "frames_sampled": 1307,
+   "grounds": [
+    {
+     "hex": "#f9e9de",
+     "share": 0.496,
+     "luma": 236,
+     "sat": 28
+    },
+    {
+     "hex": "#040536",
+     "share": 0.308,
+     "luma": 10,
+     "sat": 236
+    },
+    {
+     "hex": "#f3d9d9",
+     "share": 0.112,
+     "luma": 224,
+     "sat": 27
+    },
+    {
+     "hex": "#685aff",
+     "share": 0.064,
+     "luma": 113,
+     "sat": 165
+    },
+    {
+     "hex": "#94464e",
+     "share": 0.01,
+     "luma": 94,
+     "sat": 134
+    },
+    {
+     "hex": "#eabbd0",
+     "share": 0.009,
+     "luma": 203,
+     "sat": 51
+    }
+   ],
+   "light_ground_share": 0.617,
+   "ground_run_light_s": {
+    "n": 5,
+    "median": 12.5,
+    "max": 105.9
+   },
+   "ground_run_dark_s": {
+    "n": 4,
+    "median": 23.4,
+    "max": 72.8
+   },
+   "accents": [
+    {
+     "hex": "#311b9c",
+     "share": 0.142
+    },
+    {
+     "hex": "#23176b",
+     "share": 0.142
+    },
+    {
+     "hex": "#f22d38",
+     "share": 0.125
+    },
+    {
+     "hex": "#9a81ff",
+     "share": 0.118
+    },
+    {
+     "hex": "#7d48b2",
+     "share": 0.1
+    },
+    {
+     "hex": "#e551b0",
+     "share": 0.097
+    },
+    {
+     "hex": "#6e2765",
+     "share": 0.085
+    },
+    {
+     "hex": "#a84950",
+     "share": 0.065
+    },
+    {
+     "hex": "#3228de",
+     "share": 0.065
+    },
+    {
+     "hex": "#f88752",
+     "share": 0.06
+    }
+   ]
+  },
+  "datacenters": {
+   "range": "6.5:374",
+   "frames_sampled": 1469,
+   "grounds": [
+    {
+     "hex": "#09091a",
+     "share": 0.342,
+     "luma": 10,
+     "sat": 167
+    },
+    {
+     "hex": "#1f2a60",
+     "share": 0.197,
+     "luma": 44,
+     "sat": 173
+    },
+    {
+     "hex": "#3a4a8b",
+     "share": 0.17,
+     "luma": 76,
+     "sat": 149
+    },
+    {
+     "hex": "#1b1282",
+     "share": 0.161,
+     "luma": 33,
+     "sat": 220
+    },
+    {
+     "hex": "#a4a7d8",
+     "share": 0.076,
+     "luma": 171,
+     "sat": 63
+    },
+    {
+     "hex": "#c66041",
+     "share": 0.054,
+     "luma": 122,
+     "sat": 171
+    }
+   ],
+   "light_ground_share": 0.077,
+   "ground_run_light_s": {
+    "n": 6,
+    "median": 3.3,
+    "max": 12.0
+   },
+   "ground_run_dark_s": {
+    "n": 7,
+    "median": 50.6,
+    "max": 151.7
+   },
+   "accents": [
+    {
+     "hex": "#5853ac",
+     "share": 0.167
+    },
+    {
+     "hex": "#423493",
+     "share": 0.148
+    },
+    {
+     "hex": "#5c7bc0",
+     "share": 0.147
+    },
+    {
+     "hex": "#374a7d",
+     "share": 0.117
+    },
+    {
+     "hex": "#2f2866",
+     "share": 0.116
+    },
+    {
+     "hex": "#e65d3d",
+     "share": 0.073
+    },
+    {
+     "hex": "#67bbec",
+     "share": 0.072
+    },
+    {
+     "hex": "#87315c",
+     "share": 0.072
+    },
+    {
+     "hex": "#f1a765",
+     "share": 0.046
+    },
+    {
+     "hex": "#37755d",
+     "share": 0.042
+    }
+   ]
+  }
+ },
+ "shots": {
+  "maglev": {
+   "fps": 23.976023976023978,
+   "frames": 9286,
+   "duration_s": 387.304,
+   "shots": 57,
+   "hard_cuts": 35,
+   "gradual_transitions": 21,
+   "in_shot_events": 8,
+   "shot_dur_mean": 6.795,
+   "shot_dur_median": 4.254,
+   "shot_dur_p10": 0.792,
+   "shot_dur_p90": 16.917,
+   "shot_dur_min": 0.125,
+   "shot_dur_max": 30.447,
+   "cuts_per_min": 8.68
+  },
+  "magnets": {
+   "fps": 23.976023976023978,
+   "frames": 8313,
+   "duration_s": 346.721,
+   "shots": 39,
+   "hard_cuts": 33,
+   "gradual_transitions": 5,
+   "in_shot_events": 13,
+   "shot_dur_mean": 8.89,
+   "shot_dur_median": 0.25,
+   "shot_dur_p10": 0.167,
+   "shot_dur_p90": 31.039,
+   "shot_dur_min": 0.167,
+   "shot_dur_max": 82.04,
+   "cuts_per_min": 6.58
+  },
+  "datacenters": {
+   "fps": 23.976023976023978,
+   "frames": 9496,
+   "duration_s": 396.062,
+   "shots": 31,
+   "hard_cuts": 11,
+   "gradual_transitions": 19,
+   "in_shot_events": 2,
+   "shot_dur_mean": 12.776,
+   "shot_dur_median": 8.884,
+   "shot_dur_p10": 2.336,
+   "shot_dur_p90": 28.403,
+   "shot_dur_min": 0.334,
+   "shot_dur_max": 53.762,
+   "cuts_per_min": 4.54
+  }
+ }
+}

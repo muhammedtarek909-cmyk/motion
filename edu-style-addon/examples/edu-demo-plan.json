@@ -1,0 +1,33 @@
+{
+ "title": "edu mode — builder test (archival → edu → edu → archival)",
+ "format": "16x9", "digits": "western", "duration": 23.0, "channel_glyph": "ش",
+ "fonts": {"bold": "fonts/thmanyahserifdisplay-Bold.otf", "medium": "fonts/thmanyahserifdisplay-Medium.otf", "regular": "fonts/thmanyahserifdisplay-Regular.otf"},
+ "audio": {},
+ "scenes": [
+  {"id": "s1", "type": "kinetic", "start": 0.0, "end": 4.0, "lines": ["لماذا تنجذب الشحنات المختلفة؟"],
+   "word_times": [0.4, 1.0, 1.7, 2.4], "out": "cream"},
+  {"id": "s2", "type": "edu", "start": 4.0, "end": 12.0, "ground": "dark", "out": "cut",
+   "items": [
+    {"kind": "particle", "id": "plus", "x": 33, "y": 54, "d": 200, "tone": "plus", "sym": "+", "t": 4.4,
+     "label": {"text": "شحنة موجبة", "tone": "warm", "dy": 172, "small": true}, "9x16": {"x": 50, "y": 34}},
+    {"kind": "particle", "id": "minus", "x": 67, "y": 54, "d": 200, "tone": "minus", "sym": "-", "t": 5.1,
+     "label": {"text": "شحنة سالبة", "tone": "cool", "dy": 172, "small": true}, "9x16": {"x": 50, "y": 62}},
+    {"kind": "field", "id": "fld", "sources": ["plus", "minus"], "n": 18, "w": 2.5, "t": 6.0},
+    {"kind": "arrow", "id": "f1", "from": "plus", "angle": 0, "len": 140, "w": 13, "color": "#f3e24a", "t": 8.5, "9x16": {"angle": 90}},
+    {"kind": "arrow", "id": "f2", "from": "minus", "angle": 180, "len": 140, "w": 13, "color": "#f3e24a", "t": 8.6, "9x16": {"angle": 270}},
+    {"kind": "label", "id": "pull", "text": "تجاذب", "tone": "key", "x": 50, "y": 27, "t": 8.6, "9x16": {"x": 78, "y": 48}},
+    {"kind": "scale", "target": "f1", "to": 1.4, "t": 10.2},
+    {"kind": "scale", "target": "f2", "to": 1.4, "t": 10.2},
+    {"kind": "note", "id": "note", "text": "كلما *اقتربت* الشحنتان زادت القوة", "x": 50, "y": 86, "t": 10.1}
+   ]},
+  {"id": "s3", "type": "edu", "start": 12.0, "end": 19.0, "ground": "paper", "out": {"type": "tear", "dir": "rtl"},
+   "items": [
+    {"kind": "title", "id": "ttl", "text": "قانون كولوم", "t": 12.2},
+    {"kind": "equation", "id": "eq", "x": 50, "y": 53, "size": 150,
+     "terms": [{"s": "F", "t": 12.9}, {"s": "=", "t": 13.2}, {"s": "k", "t": 13.6}, {"frac": ["q_1 q_2", "r^2"], "t": 14.1}],
+     "highlight": [{"term": 3, "part": "den", "t": 15.8}], "box": 17.0, "9x16": {"size": 120, "y": 46}},
+    {"kind": "note", "id": "note", "text": "نصف المسافة = *أربعة أضعاف* القوة", "x": 50, "y": 84, "t": 15.9, "9x16": {"y": 62}}
+   ]},
+  {"id": "s4", "type": "nodes", "start": 19.0, "end": 23.0, "items": [{"text": "الشحنة", "t": 19.5}, {"text": "المسافة", "t": 20.6}], "out": "cut"}
+ ]
+}

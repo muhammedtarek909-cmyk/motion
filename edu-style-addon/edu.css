@@ -1,0 +1,83 @@
+/* =====================================================================
+   reference-motion-style — EDU MODE (per-scene look for physics / chemistry explanations)
+   ONE COLOUR TEMPLATE (owner, 13 Oct 2026): grounds, type colours and the general mood are the ARCHIVAL
+   style's own tokens (rtl.css :root) — halftone paper, ink, red, yellow, the teal set — so a video that
+   mixes archival and edu scenes reads as one piece. Only a drawn object that needs its own colour may leave
+   the template. The edu reference's shapes and timings are kept; its cream / navy / violet palette is not.
+   Loaded after rtl.css (same :root tokens); everything is namespaced `edu-`.
+   1 px = 1 px at 1920 x 1080; in 9:16 the same sizes apply to the 1080-px short side.
+   ===================================================================== */
+:root {
+  --edu-dark: #1c1b1a;         /* the dark ground = the style's charcoal (--tc-charcoal): inside matter */
+  --edu-line: #2b4f4b;         /* field / orbit lines on paper = deep teal (the style's line-icon colour) */
+  --edu-line-dark: #c3e6e7;    /* the same lines on the dark ground = pale teal */
+  --edu-red-ink: #b94a47;      /* --red deepened for free text on paper (3.9:1; --red itself is 3.0:1) */
+}
+
+/* ---------------- grounds ---------------- */
+.edu-ground { position: absolute; inset: -6%; }
+.edu-ground.paper { background: var(--paper) url("assets/textures/paper.png") center / cover; }       /* = .bg-paper */
+.edu-ground.dark { background: var(--edu-dark); }
+.edu-ground.bloom { background: radial-gradient(circle at 50% 54%, rgba(195, 230, 231, 0.95) 0%, rgba(195, 230, 231, 0.55) 26%, rgba(195, 230, 231, 0) 58%),
+  var(--paper) url("assets/textures/paper.png") center / cover; }                                    /* paper + pale-teal bloom: naming one big idea */
+/* the style's 72 px grid (rtl.css .grid-area) under every diagram: graph paper on light, faint on dark */
+.edu-grid { position: absolute; left: 12.3%; right: 13.6%; top: 12.4%; bottom: 13.2%; opacity: 0.55; pointer-events: none;
+  background-image: repeating-linear-gradient(0deg, var(--grid-line) 0 1px, transparent 1px 72px),
+    repeating-linear-gradient(90deg, var(--grid-line) 0 1px, transparent 1px 72px); }
+.on-dark .edu-grid { opacity: 0.5; background-image: repeating-linear-gradient(0deg, rgba(234, 233, 228, 0.13) 0 1px, transparent 1px 72px),
+    repeating-linear-gradient(90deg, rgba(234, 233, 228, 0.13) 0 1px, transparent 1px 72px); }
+.fmt-9x16 .edu-grid { left: 6%; right: 6%; top: 14%; bottom: 14%; }
+
+.edu-svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: visible; }
+.edu-txt { position: absolute; inset: 0; pointer-events: none; }
+.edu-anchor { position: absolute; width: 0; height: 0; }
+
+/* ---------------- type (archival ink / red / yellow / teal) ---------------- */
+.edu-title { position: absolute; left: 0; right: 0; top: 8.4%; text-align: center; font-size: 96px; font-weight: 700; line-height: 1.2;
+  color: var(--ink); white-space: nowrap; }
+.edu-title .t { display: inline-block; }
+.edu-sub { position: absolute; left: 0; right: 0; top: 20.4%; text-align: center; font-size: 52px; font-weight: 700; line-height: 1.25;
+  color: var(--edu-red-ink); white-space: nowrap; }
+.on-dark .edu-title { color: var(--sticker-white); }
+.on-dark .edu-sub { color: var(--yellow-text); }
+.edu-label { position: absolute; white-space: nowrap; font-size: 60px; font-weight: 700; line-height: 1.2; color: var(--ink);
+  text-shadow: 0 0 5px var(--paper), 0 0 12px var(--paper), 0 0 20px var(--paper); }   /* halo: a field line never cuts through a word */
+.on-dark .edu-label, .on-dark .edu-note { text-shadow: 0 0 5px var(--edu-dark), 0 0 12px var(--edu-dark), 0 0 20px var(--edu-dark); }
+.edu-label.small { font-size: 44px; }
+.edu-label.warm { color: var(--edu-red-ink); }          /* the label of the warm body (+, proton, north, hot) */
+.edu-label.cool { color: var(--teal-dark); }            /* the label of the cool body (-, electron, south, cold) */
+.edu-label.key { color: var(--edu-red-ink); }           /* the noun the sentence is about */
+.on-dark .edu-label { color: #ffffff; }
+.on-dark .edu-label.warm { color: #e88b87; }
+.on-dark .edu-label.cool { color: var(--teal-light); }
+.on-dark .edu-label.key { color: var(--yellow-text); }
+
+/* property list: line icon + word, one row per spoken property */
+.edu-list { position: absolute; display: flex; flex-direction: column; gap: 14px; direction: rtl; }
+.edu-row { display: flex; align-items: center; gap: 16px; font-size: 44px; font-weight: 500; line-height: 1.25; color: var(--ink); white-space: nowrap; }
+.edu-row svg { width: 44px; height: 44px; flex: 0 0 44px; color: var(--teal-dark); }
+.on-dark .edu-row { color: #fff; }
+.on-dark .edu-row svg { color: var(--teal-light); }
+
+/* ---------------- equation (always LTR, isolated) ---------------- */
+.edu-eq { position: absolute; display: flex; align-items: center; gap: 0.3em; direction: ltr; unicode-bidi: isolate;
+  font-family: "RMS Text", serif; font-size: 104px; font-weight: 500; line-height: 1.1; color: var(--ink); white-space: nowrap; }
+.on-dark .edu-eq { color: #fff; }
+.edu-eq .term { display: inline-block; position: relative; }
+.edu-eq .frac { display: inline-flex; flex-direction: column; align-items: center; gap: 0.06em; }
+.edu-eq .frac .num, .edu-eq .frac .den { display: block; padding: 0 0.16em; }
+.edu-eq .frac .bar { display: block; align-self: stretch; height: 5px; background: currentColor; transform-origin: 0% 50%; }
+.edu-eq sup, .edu-eq sub { font-size: 0.56em; line-height: 0; }
+.edu-eq .ul { position: absolute; left: -0.06em; right: -0.06em; bottom: -0.1em; height: 7px; border-radius: 4px; background: var(--red); transform-origin: 0% 50%; }
+.on-dark .edu-eq .ul { background: var(--yellow-stroke); }
+.edu-eq .box { position: absolute; inset: -0.22em -0.36em; border: 5px solid var(--ink); border-radius: 6px; }
+.on-dark .edu-eq .box { border-color: var(--yellow-text); }
+.edu-note { position: absolute; white-space: nowrap; font-size: 54px; font-weight: 700; line-height: 1.25; color: var(--ink); }
+.on-dark .edu-note { color: #fff; }
+.edu-note .hl { color: var(--edu-red-ink); }
+.on-dark .edu-note .hl { color: var(--yellow-text); }
+
+/* 9:16: the diagram keeps its size on the short side; titles step down one size */
+.fmt-9x16 .edu-title { font-size: 78px; top: 12%; }
+.fmt-9x16 .edu-sub { font-size: 44px; top: 18%; }
+.fmt-9x16 .edu-eq { font-size: 84px; }
