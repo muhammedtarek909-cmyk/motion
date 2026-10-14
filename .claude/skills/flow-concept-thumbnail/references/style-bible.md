@@ -67,6 +67,16 @@ For **history**, lean on sage, grey-violet, deep olive, sunset pink or sand-beig
 **Text spec line to give the user:**
 `الخط: IBM Plex Sans Arabic Bold أسود #111 · كل سطر في مستطيل لونه #E2E43E على قد السطر · الحجم ≈ 11% من ارتفاع الصورة (78px على 1280×720) · العنوان على اليمين، حافته عند 95% ونصّه عند 53% من الارتفاع · الصق المستطيلين في بعض من غير مسافة · وزوّد grain خفيف فوق الكل`
 
+## 5b. Reel layout (9:16, 1080×1920)
+Adapted from the 16:9 layout, since the reference set has no vertical covers. It follows phone-app safe zones: top ≈ 12% under the app UI, bottom ≈ 20% under the caption and buttons, the right edge under the icons from y ≈ 55% down, and the Instagram grid crops to the center 3:4 (y ≈ 240–1680).
+- Cream border ≈ 32 px (3% of the width). Panel corner radius ≈ 54 px.
+- Logo: top-right, x ≈ 700–1000, y ≈ 230–330.
+- Title block: right edge at x ≈ 990 (≈92%), top of line 1 at y ≈ 340 (≈18%). Up to 3 lines, stepped chartreuse boxes ≈ 130 px tall, text ≈ 100 px.
+- Hero: centered, focal point at y ≈ 860–1380, may bleed off the bottom. Keep nothing important below y ≈ 1540, and keep x > 900 empty from y ≈ 1050 down.
+
+**Reel text spec line to give the user:**
+`الخط: IBM Plex Sans Arabic Bold أسود #111 · كل سطر في مستطيل لونه #E2E43E على قد السطر · الحجم ≈ 100px على 1080×1920 (≈5% من الارتفاع) · العنوان فوق على اليمين، حافته عند 92% من العرض وبيبدأ عند 18% من الارتفاع · لحد 3 سطور ملزوقين في بعض · خلّي كل حاجة مهمة بين 12% و80% من الارتفاع عشان واجهة التطبيق`
+
 ## 6. Title copy
 - Always a question, in 2 lines, with 2–3 words per line.
 - Openers that fit Egyptian Arabic: «إزاي…؟»، «ليه…؟»، «هل…؟»، «مين…؟»، «إيه اللي…؟». The first line usually ends on the verb, the second on the subject: «إزاي اتبنى / الهرم الأكبر؟».

@@ -1,6 +1,6 @@
 ---
 name: "flow-concept-thumbnail"
-description: "Writes ready-to-paste Nano Banana 2 prompts for Google Flow that make a faceless YouTube thumbnail for an episode: one witty visual metaphor of the episode's topic in a pastel editorial-collage style (cream paper border, rounded pastel panel, heavy grain, hero on the left, empty right side for the title), plus 3 suggested Arabic question titles the user types on top. Use it when the user gives an episode title or topic and wants a thumbnail without the host's face, or says ثمبنيل من غير وشي، ثمبنيل للحلقة، ثمبنيل فكرة، نفس استايل سياق، برومبت ثمبنيل بالاستايل الجديد. When the host should appear in costume, use flow-thumbnail-prompts instead."
+description: "Writes ready-to-paste Nano Banana 2 prompts for Google Flow that make a faceless YouTube thumbnail for an episode: one witty visual metaphor of the episode's topic in a pastel editorial-collage style (cream paper border, rounded pastel panel, heavy grain, hero on the left, empty right side for the title), plus 3 suggested Arabic question titles the user types on top. Use it when the user gives an episode title or topic and wants a thumbnail without the host's face, or says ثمبنيل من غير وشي، ثمبنيل للحلقة، ثمبنيل فكرة، نفس استايل سياق، برومبت ثمبنيل بالاستايل الجديد. Also makes the same style as a vertical 9:16 Reel / Shorts / TikTok cover when asked (ريل، ريلز، شورتس، كفر الريل، 9:16، بمقاس الريل). When the host should appear in costume, use flow-thumbnail-prompts instead."
 ---
 
 # Flow Concept Thumbnail (faceless, Nano Banana 2)
@@ -18,6 +18,8 @@ The style comes from a set of pastel Arabic explainer thumbnails the user loves.
 An episode title or topic, e.g. «الهرم الأكبر», «دنشواي», «ليه القهوة بتصحّي», «سقوط الأندلس». Optionally a working title, notes, or photos.
 
 If the topic is ambiguous, pick the most likely reading and say which in one line. Ask nothing unless the episode is truly unclear.
+
+**Format:** YouTube 16:9 by default. If the user mentions a Reel, Shorts, TikTok, story, cover, 9:16 or «مقاس الريل», make the Reel version (see «Reel version (9:16)» below). If they ask for both, give the 16:9 first, then the Reel with the same concept and palette, so the two posts look like a set.
 
 ## How to build the concept
 
@@ -94,6 +96,41 @@ LOOK: limited palette of sand beige, limestone white and charcoal plus one warm 
 Avoid: text, letters, signs, labels, numbers, flags, logos, UI, extra frames, busy backgrounds, photoreal environments, glossy HDR, neon, lens flare, multiple competing subjects, gore.
 ```
 **العنوان:** ⭐ «إزاي اتبنى / الهرم الأكبر؟» · «مين بنى / الهرم بجد؟» · «الحجر دا / طلع إزاي؟»
+
+## Reel version (9:16)
+Same concept, medium, palette, grain and cream frame; only the layout changes to vertical. Phone apps cover parts of a Reel, so the layout keeps everything important inside the safe area: the app UI covers the top ≈ 12%, the caption and buttons cover the bottom ≈ 20%, the like/comment icons sit on the right edge from y ≈ 55% down, and the Instagram profile grid crops the cover to the center 3:4 (y ≈ 12.5–87.5%).
+
+**Reel layout**
+- Cream border ≈ 3% of the width, around a panel with rounded corners (radius ≈ 5% of the width).
+- **Top ≈ 40% of the panel calm:** only the background color. The title goes here (x ≈ 8–92%, y ≈ 17–37%) and the user's own logo just above it (y ≈ 12–17%).
+- **Hero in the lower-middle, centered horizontally,** its focal point at y ≈ 45–72%. It may grow larger and bleed off the bottom edge, but nothing important below y ≈ 80%, and keep the right edge below y ≈ 55% free of key details.
+- Tall formats suit vertical metaphors: a tall stack, a hanging object, a falling thing, a tower, a scale, a thread pulled up. If the 16:9 metaphor is wide, rearrange it vertically rather than shrinking it.
+
+**Reel prompt template**
+```
+Absolutely no text, letters, numbers, logos or watermarks anywhere in the image.
+A vertical 9:16 Reel cover artwork in a modern Arabic editorial-magazine style.
+FRAME: a thin off-white cream paper border (#EDE7DB, about 3% of the width on every side) around one tall panel with softly rounded corners. Everything below is inside that panel.
+PANEL BACKGROUND: [PANEL COLOR / GRADIENT], flat and calm, [ACCENT: e.g. a soft blurred coral-orange radial glow behind the subject].
+TOP 40% of the panel: empty, only the calm background color, no objects, no shadows, no stripes.
+HERO, centered horizontally in the lower-middle of the panel, its focal point between 45% and 72% of the height: [THE METAPHOR, arranged vertically, concrete objects]. Rendered as [MEDIUM]. [GROUNDING: e.g. standing on a flat floor plane with a soft contact shadow / its base cropped by the bottom edge]. Keep the main details away from the right edge and the bottom 20%.
+LOOK: limited palette of [2–3 COLORS] plus one warm coral/orange accent, subject slightly desaturated, soft matte light, gentle airbrushed gradients, crisp silhouette, heavy fine risograph film grain over the whole image including the border, slightly vintage print feel. Witty, conceptual, minimal: one idea readable at phone size.
+Avoid: text, letters, signs, labels, numbers, flags, logos, UI, extra frames, busy backgrounds, photoreal environments, glossy HDR, neon, lens flare, multiple competing subjects, gore.
+Absolutely no text anywhere.
+```
+In Flow choose **9:16 (Portrait)**.
+
+**From an existing 16:9 thumbnail** (keeps the exact same look): attach the generated thumbnail as image 1, choose 9:16, and use:
+```
+Recompose image 1 as a vertical 9:16 Reel cover. Keep the same subject, rendering style, colors, grain and cream paper border with rounded corners. Place the subject centered in the lower-middle, larger, focal point between 45% and 72% of the height; leave the top 40% of the panel as empty calm background. Absolutely no text, letters or numbers.
+```
+
+**Reel titles:** same rules, but up to 3 short lines (≤ 12 characters each), because the width is narrower. Give the Reel text spec from the style bible §5b.
+
+**Reel quick edits** (in addition to «شيل الكلام», «حبّة أكتر», «لون تاني»):
+- «فضّي فوق»: `Edit this image. Move the main subject lower and slightly smaller so the top 40% of the panel is completely empty background. Keep everything else identical. No text.`
+- «كبّر»: `Edit this image. Make the main subject larger and centered, focal point between 45% and 72% of the height, still leaving the top 40% empty. Keep everything else identical. No text.`
+- «الإطار»: `Edit this image. Add a thin off-white cream (#EDE7DB) paper border around the whole image, with the artwork inside a tall panel with softly rounded corners. Keep the artwork identical.`
 
 ## Rules
 - Keep the chat short: the concept, the prompt, the titles, the edits.
